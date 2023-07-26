@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt -BR "> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>DestinosBrasileiros</title>
+</head>
+<body class="bg-light">
+    <header class="container-fluid p-2 bg-success text-center">
+        <nav class="navbar navbar-expand-lg bg-success">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="#">Destinos Brasileiros</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="#Sobre">Sobre nós</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#Serviços">Serviços</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#Pacotes">Pacotes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#Promoções">Promoções</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="contato.html">Contato</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Mais
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Dicas de viagem</a></li>
+                      <li><a class="dropdown-item" href="#">Roteiros</a></li>
+                      <li><a class="dropdown-item" href="#">Restaurantes</a></li>
+                      <li><a class="dropdown-item" href="#">Eventos</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="checkout.html"> <i  class= "bi bi-cart3"></i></a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+                  <button class="btn btn-outline-muted bg-white text-success" type="submit">Procurar</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+        
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators"> 
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/carrossel/amazonas.jpg" class="d-block w-100" alt="Rio Amazonas">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Amazônia deslumbrante</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/carrossel/angra.jpg" class="d-block w-100" alt="Angra dos Reis">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Entre mares e montanhas!</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/carrossel/cataratas-iguacu.jpg" class="d-block w-100" alt="Cataratas do Iguaçu">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>De norte a sul</h5>
+              </div>
+            </div>
+              <div class="carousel-item">
+                <img src="img/carrossel/chapada-veadeiros.jpg" class="d-block w-100" alt="Chapada dos Veadeiros">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Natureza exuberante</h5>
+                </div>
+              </div>
+                <div class="carousel-item">
+                  <img src="img/carrossel/nordeste.jpg" class="d-block w-100" alt="Festa junina típica tradição nordestina">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Venha conhecer o Brasil!</h5>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </header>
+    
+    <section id="Sobre" class="container bg-light text-center p-3">
+        <h2>Sobre nós</h2>
+        <p>
+            Bem-vindo à DestinosBrasileiros, sua porta de entrada para a aventura autêntica e inesquecível pelo Brasil. Nós nos comprometemos com os princípios fundamentais da transparência e da diversão garantidas, colocando sua experiência no centro de tudo o que fazemos. Além disso, valorizamos e apoiamos as populações nativas brasileiras, reconhecendo a importância de preservar suas tradições e conhecimentos ancestrais. Em cada destino que exploramos, buscamos aprofundar nossa conexão com a cultura local, promovendo interações genuínas e respeitosas. Com a DestinosBrasileiros, você descobrirá uma nova perspectiva do Brasil, onde cada jornada é uma oportunidade para criar memórias enriquecedoras e deixar uma pegada positiva em cada comunidade que visitamos.
+        </p>
+        </section>
+                   
+        <section id="Pacotes" class="container-fluid bg-success-subtle text-center p-3">
+            <h2>Conheça nossos pacotes!</h2>
+            <p class="text-center">
+                Embarque em uma jornada de tirar o fôlego com nossos pacotes de viagem exclusivos, explorando os deslumbrantes destinos! 
+            </p>
+
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="img/NossosPacotes/rio-de-janeiro.jpeg" class="card-img-top" alt="Rio de Janeiro">
+                    <div class="card-body">
+                      <h4 class="card-title">Rio de Janeiro</h4>
+                      <p class="text-muted">A partir de</p>
+                      <h1 class="card-subtitle">R$ 420</h1>
+                      <p class="card-text">Sinta a energia contagiante do Rio de Janeiro, com suas praias deslumbrantes, icônicos pontos turísticos como o Cristo Redentor e uma vida noturna vibrante.</p>
+                    </div>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary">Eu quero!</a>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Exclusivo  DestinosBrasileiros.</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="img/NossosPacotes/porto-seguro.jpeg" class="card-img-top" alt="Porto Seguro">
+                    <div class="card-body">
+                      <h4 class="card-title">Porto Seguro</h4>
+                      <p class="text-muted">Até</p>
+                      <h1 class="card-subtitle">R$ 300 </h1>
+                      <p class="text-muted">de desconto com o cupom DESTBR23</p>
+                      <p class="card-text">Descubra as raízes históricas de Porto Seguro, mergulhando na cultura local e aproveitando as belas praias de águas cristalinas.</p>
+                    </div>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"data-bs-toggle="modal" data-bs-target="#exampleModal">Eu quero!</a>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Exclusivo no App.</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="img/NossosPacotes/gramado.jpeg" class="card-img-top" alt="Gramado">
+                    <div class="card-body">
+                      <h4 class="card-title">Gramado</h4>
+                      <p class="text-muted">A partir de 10x</p>
+                      <h1 class="card-subtitle">R$ 88</h1>
+                      <p class="card-text">E não se esqueça de visitar Gramado, onde a atmosfera encantadora, a arquitetura europeia e o clima ameno o aguardam.</p>
+                    </div>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary">Eu quero!</a>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Economize levando voo + hotel.</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <p class="text-center">Nossos pacotes de viagem cuidadosamente projetados oferecem a você uma combinação perfeita de paisagens deslumbrantes, experiências autênticas e momentos de diversão inesquecíveis. Venha conosco e deixe sua marca nessas joias do Brasil.</p>
+        </section>
+        
+        <section id="Serviços" class="container bg-light text-center p-3">
+            <h2>Serviços</h2>
+            <table class="table table-light table-striped table-hover table-bordered border-dark-subtle">
+                <thead class="table-success" >
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Serviços</th>
+                    <th scope="col">Descrição</th>
+                    <th scope="col">Faixa de preço</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Traslado receptivo</td>
+                    <td>Explore os roteiros mais incríveis e autênticos pelo Brasil sem se preocupar com as idas e vindas do aeroporto.</td>
+                    <td>R$100 - R$500</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Passagens</td>
+                    <td>Encontre passagens aéreas com as melhores tarifas para os destinos desejados.</td>
+                    <td>Varia de acordo com a rota.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Hotéis</td>
+                    <td>Escolha entre uma ampla variedade de hotéis de qualidade em diversos destinos.</td>
+                    <td>R$200 - R$1.000 por noite</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Cruzeiros</td>
+                    <td>Experimente a emoção de um cruzeiro inesquecível pelas belas costas brasileiras.</td>
+                    <td>R$2.000 - R$10.000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Aluguel de Carros</td>
+                    <td>Tenha a liberdade de explorar o destino em seu próprio ritmo com nossos carros alugados.</td>
+                    <td>R$150 - R$500 por dia</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Aluguel de Casas</td>
+                    <td>Aproveite o conforto e a privacidade de uma casa para aluguel durante sua estadia.</td>
+                    <td>R$200 - R$3.000 por noite</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Ingressos</td>
+                    <td>Garanta seus ingressos para eventos, parques temáticos e atrações turísticas.</td>
+                    <td>Varia de acordo com o evento.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Disney</td>
+                    <td>Viva a magia da Disney com pacotes especiais que incluem hospedagem e ingressos.</td>
+                    <td>R$3.000 - R$10.000</td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
+
+        <section class="container bg-success-subtle p-3">
+            <h2 class="text-center">Faça já seu orçamento!</h2>
+            <form method="get" action="">
+                <fieldset>
+                    <div class= "mb-3">
+                      <label class="form-label" for="nome">Nome:</label>
+                      <input type="text" name="nome" class="form-control" id="nome">
+                    </div>
+                    <div class= "mb-3">
+                      <label class="form-label" for="email">E-mail:</label>
+                      <input type="text" name="email" class="form-control" id="email" placeholder="email@xyz.com">
+                    </div>
+                    <div class= "mb-3">
+                      <label class="form-label" for="dataIda">Data de ida:</label>
+                      <input type="date" name="dataIda" class="form-control" id="dataIda">
+                    </div>
+                    <div class= "mb-3">
+                      <label class="form-label" for="dataVolta">Data de volta</label>
+                      <input type="date" name="dataVolta" class="form-control" id="dataVolta">
+                    </div>
+                    <div class= "mb-3">
+                      <label class="form-label" for="adultos">Quantidade de adultos</label><br>
+                        <input type="number" name="adultos" class="form-control" id="adultos">
+                    </div>
+                    <div class= "mb-3">
+                      <label class="form-label" for="crianças">Escolha seu destino</label>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Selecione</option>
+                        <option value="1">Rio de Janeiro</option>
+                        <option value="2">Gramado</option>
+                        <option value="3">Porto Seguro</option>
+                      </select>
+                    </div>
+
+                    <div class="form-check">
+                      <input name="Traslado" class="form-check-input" type="checkbox" value="" id="Traslado">
+                      <label class="form-check-label" for="Traslado">
+                        Traslado receptivo
+                      </label>
+                    </div>
+                    <div class="form-check">
+                    <input name = "passagens" class="form-check-input" type="checkbox" value="" id="passagens">
+                      <label class="form-check-label" for="passagens">
+                        Compra de passagens
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input name="hotéis"class="form-check-input" type="checkbox" value="" id="hotéis">
+                      <label class="form-check-label" for="hotéist">
+                        Reserva de hotéis
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input name="Cruzeiros" class="form-check-input" type="checkbox" value="" id="Cruzeiro">
+                      <label class="form-check-label" for="Cruzeiro">
+                        Cruzeiros
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input name="carros"class="form-check-input" type="checkbox" value="" id="carros">
+                      <label class="form-check-label" for="carros">
+                        Aluguel de carros
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input name="casas"class="form-check-input" type="checkbox" value="" id="casas">
+                      <label class="form-check-label" for="casas">
+                        Aluguel de casas
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input name="Ingressos" class="form-check-input" type="checkbox" value="" id="Ingressos">
+                      <label class="form-check-label" for="Ingressos">
+                        Ingressos
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input name="Disney" class="form-check-input" type="checkbox" value="" id="Disney">
+                      <label class="form-check-label" for="Disney">
+                        Disney
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="Outros" name="Outros">
+                      <label class="form-check-label" for="Outros">
+                        Outros (especifique nas observações)
+                      </label>
+                    </div>
+                    <div>
+                      <label>Observações:<br>
+                      </label>
+                      <textarea rows="2" name="observações"></textarea>
+                        <button class="btn btn-secondary">Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+        <section class="container bg-success-subtle mt-2 p-3">
+            <h2 class="text-center">Cadastre-se e receba nossa newsletter com promoções exclusivas!</h2>
+            <form method="post" action="">
+                <fieldset>
+                    <div class= "mb-3">
+                      <label class="form-label" for="nome">Nome:</label>
+                      <input type="text" name="nome" class="form-control" id="nome">
+                    </div>
+                    <div class= "mb-3">
+                      <label class="form-label" for="sobrenome">Sobrenome:</label>
+                      <input type="text" name="sobrenome" class="form-control" id="sobrenome">
+                    </div>
+                    <div class= "mb-3">
+                      <label class="form-label" for="email">E-mail:</label>
+                      <input type="text" name="email" class="form-control" id="email" placeholder="email@xyz.com">
+                    </div>
+                    <div class= "mb-3">
+                      <label class="form-label" for="nascimento">Data de nascimento:</label>
+                      <input type="date" name="nascimento" class="form-control" id="nascimento">
+                    </div>
+                    <div class= "mb-3">
+                      <label class="form-label" for="telefone">Telefone para contato:</label>
+                      <input type="number" name="telefone" class="form-control" id="telefone">
+                    </div>
+                    <div class= "mb-3">
+                      <label class="form-label" for="senha">Senha:</label>
+                      <input type="password" name="senha" class="form-control" id="senha" required pattern="[A-Z]{3}[0-9]{4}" title="Utilize 3 letras maiusculas seguidas por 4 dígitos">
+                    </div>
+                    <button class="btn btn-light">Cadastrar!</button>
+                </fieldset>
+            </form>
+        </section>
+        
+        <section class="container-fluid  text-center bg-light p-3">
+            <h2>Como você avalia sua experiência em nosso site?</h2>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="Excelente" id="Excelente" value="option1">
+              <label class="form-check-label" for="Excelente">Excelente</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="boa" id="boa" value="option2">
+              <label class="form-check-label" for="boa">Boa</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="razoavel" id="razoavel" value="option2">
+              <label class="form-check-label" for="razoavel">Razoável</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="ruim" id="ruim" value="option2">
+              <label class="form-check-label" for="ruim">Ruim</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="pessima" id="pessima" value="option2">
+              <label class="form-check-label" for="pessima">Péssima</label>
+            </div>
+            
+        
+        
+             
+        </section>
+        
+        <section>
+          <footer class="container-fluid bg-light text-center">
+            <p>Desenvolvido por Elisa.</p> 
+          </footer>
+        </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Uhul! Vamos viajar!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Produto adicionado ao carrinho! Vá para sua reserva para adicionar especificações.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Continuar comprando</button>
+        <a href="checkout.html" class="btn btn-primary">Finalizar compra</a>
+      </div>
+    </div>
+  </div>
+</div>
+</html>

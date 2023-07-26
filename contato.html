@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt -BR "> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>DestinosBrasileiros</title>
+</head>
+<body class="bg-light">
+    <header class="container-fluid p-2 bg-success text-center">
+        <nav class="navbar navbar-expand-lg bg-success">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="index.html">Destinos Brasileiros</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="index.html#Sobre">Sobre nós</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="index.html#Serviços">Serviços</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="index.html#Pacotes">Pacotes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="index.html#Promoções">Promoções</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#Contato">Contato</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Mais
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Dicas de viagem</a></li>
+                        <li><a class="dropdown-item" href="#">Roteiros</a></li>
+                        <li><a class="dropdown-item" href="#">Restaurantes</a></li>
+                        <li><a class="dropdown-item" href="#">Eventos</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="checkout.html"> <i  class= "bi bi-cart3"></i></a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+                  <button class="btn btn-outline-muted bg-white text-success" type="submit">Procurar</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <section id="Contato" class="container bg-light p-3">
+        <h2>Contato</h2>
+        <form method="get" action="">
+            <fieldset>
+                
+                <div class= "mb-3">
+                  <label class="form-label" for="nome">Nome:</label>
+                  <input type="text" name="nome" class="form-control" id="nome">
+                </div>
+                <div class= "mb-3">
+                  <label class="form-label" for="email">E-mail:</label>
+                  <input type="text" name="email" class="form-control" id="email" placeholder="email@xyz.com">
+                </div>
+                <div class= "mb-3">
+                  <label class="form-label">Sua mensagem:
+                  </label><br>
+                  <textarea rows="5" name="mensagem"></textarea>
+                </div>
+                
+                <button class="bt btn-secondary">Enviar</button>
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+    <section class="text-center text-light">
+        <footer class="container-fluid bg-success text-center">
+          <p>Horário de Atendimento: Seg-Sex, das 9h às 18h</p> 
+            <p>Email: contato@destinosbrasile.com.br</p>
+            <p>Número da Ouvidoria: (00) xoxo-xoxo</p>
+            <p>Endereço do Escritório: Rua das Aventuras, 123 - Cidade dos Sonhos, Brasil.</p>
+            <p>Desenvolvido por Elisa.</p> 
+        </footer>
+      </section>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

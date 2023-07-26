@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt -BR "> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>DestinosBrasileiros</title>
+</head>
+<body class="bg-light">
+    <header class="container-fluid p-2 bg-success text-center">
+        <nav class="navbar navbar-expand-lg bg-success">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="index.html">Destinos Brasileiros</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="index.html#Sobre">Sobre nós</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="index.html#Serviços">Serviços</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="index.html#pacotes">Pacotes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#Promoções">Promoções</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="contato.html">Contato</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Mais
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Dicas de viagem</a></li>
+                        <li><a class="dropdown-item" href="#">Roteiros</a></li>
+                        <li><a class="dropdown-item" href="#">Restaurantes</a></li>
+                        <li><a class="dropdown-item" href="#">Eventos</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+                  <button class="btn btn-outline-muted bg-white text-success" type="submit">Procurar</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </header>
+        <main class="container">
+            <div class="py-5 text-center">
+              <h2>Pagamento</h2>
+              <p class="lead">Preencha suas informações corretamente para efetuar a reserva.</p>
+            </div>
+        
+            <div class="row g-5">
+              <div class="col-md-5 col-lg-4 order-md-last">
+                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="text-primary">Carrinho</span>
+                  <span class="badge bg-primary rounded-pill">3</span>
+                </h4>
+                <ul class="list-group mb-3">
+                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                      <h6 class="my-0">Product name</h6>
+                      <small class="text-body-secondary">Brief description</small>
+                    </div>
+                    <span class="text-body-secondary">$12</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                      <h6 class="my-0">Second product</h6>
+                      <small class="text-body-secondary">Brief description</small>
+                    </div>
+                    <span class="text-body-secondary">$8</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                      <h6 class="my-0">Third item</h6>
+                      <small class="text-body-secondary">Brief description</small>
+                    </div>
+                    <span class="text-body-secondary">$5</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
+                    <div class="text-success">
+                      <h6 class="my-0">Cupom</h6>
+                      <small>PRIMEIRACOMPRA</small>
+                    </div>
+                    <span class="text-success">−R$100,00</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between">
+                    <span>Total (br)</span>
+                    <strong>R$20</strong>
+                  </li>
+                </ul>
+        
+                <form class="card p-2">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Promo code">
+                    <button type="submit" class="btn btn-secondary">APLICAR</button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-md-7 col-lg-8">
+                <h4 class="mb-3">Endereço de Cobrança</h4>
+                <form class="needs-validation" novalidate>
+                  <div class="row g-3">
+                    <div class="col-sm-6">
+                      <label for="firstName" class="form-label">Nome</label>
+                      <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                      <div class="invalid-feedback">
+                        Valid first name is required.
+                      </div>
+                    </div>
+        
+                    <div class="col-sm-6">
+                      <label for="lastName" class="form-label">Sobrenome</label>
+                      <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                      <div class="invalid-feedback">
+                        Valid last name is required.
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <label for="email" class="form-label">Email <span class="text-body-secondary"></span></label>
+                      <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                      <div class="invalid-feedback">
+                        por favor adicione um endereço de email válido.
+                      </div>
+                    </div>
+        
+                    <div class="col-12">
+                      <label for="address" class="form-label">Endereço</label>
+                      <input type="text" class="form-control" id="address" placeholder="Rua dos sonhos, 123" required>
+                      <div class="invalid-feedback">
+                        Por favor informe seu endereço.
+                      </div>
+                    </div>
+        
+                    <div class="col-12">
+                      <label for="address2" class="form-label">Complemento <span class="text-body-secondary"></span></label>
+                      <input type="text" class="form-control" id="address2" placeholder="Casa, bloco e apto">
+                    </div>
+        
+                    <div class="col-md-5">
+                        <label for="país" class="form-label">País <span class="text-body-secondary"></span></label>
+                        <input type="text" class="form-control" id="país" placeholder="Casa, bloco e apto">
+                      <div class="invalid-feedback">
+                        Por favor insira seu país.
+                      </div>
+                    </div>
+        
+                    <div class="col-md-4">
+                      <label for="estado" class="form-label">Estado</label>
+                      <input type="text" class="form-control" id="estado">
+                      <div class="invalid-feedback">
+                        Por favor insira seu estado.
+                      </div>
+                      <div class="invalid-feedback">
+                        Por favor informe seu estado.
+                      </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                      <label for="zip" class="form-label">CEP</label>
+                      <input type="text" class="form-control" id="zip" placeholder="00000-000" required>
+                      <div class="invalid-feedback">
+                        CEP necessário.
+                      </div>
+                    </div>
+                  </div>
+        
+                  <hr class="my-4">
+        
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="save-info">
+                    <label class="form-check-label" for="save-info">Save this information for next time</label>
+                  </div>
+        
+                  <hr class="my-4">
+        
+                  <h4 class="mb-3">Pagamento</h4>
+        
+                  <div class="my-3">
+                    <div class="form-check">
+                      <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                      <label class="form-check-label" for="credit">Crédito</label>
+                    </div>
+                    <div class="form-check">
+                      <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                      <label class="form-check-label" for="debit">Débito</label>
+                    </div>
+                    <div class="form-check">
+                      <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                      <label class="form-check-label" for="paypal">Pix</label>
+                    </div>
+                  </div>
+        
+                  <div class="row gy-3">
+                    <div class="col-md-6">
+                      <label for="cc-name" class="form-label">Nome</label>
+                      <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                      <small class="text-body-secondary">Nome completo como escrito no cartão.</small>
+                      <div class="invalid-feedback">
+                        Informe o nome no cartão.
+                      </div>
+                    </div>
+        
+                    <div class="col-md-6">
+                      <label for="cc-number" class="form-label">Número do cartão</label>
+                      <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Número inválido.
+                      </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                      <label for="cc-expiration" class="form-label">Validade</label>
+                      <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Informe a validade do seu cartão
+                      </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                      <label for="cc-cvv" class="form-label">CVV</label>
+                      <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Código de segurança inválido.
+                      </div>
+                    </div>
+                  </div>
+        
+                  <hr class="my-4">
+        
+                  <button class="w-100 btn btn-primary btn-lg" type="submit">Finalize sua compra</button>
+                </form>
+              </div>
+            </div>
+          </main>
+
+        <section>
+            <footer class="container-fluid bg-success text-center">
+              <p>Desenvolvido por Elisa.</p> 
+            </footer>
+          </section>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+  </html>
